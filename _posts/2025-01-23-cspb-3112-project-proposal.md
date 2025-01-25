@@ -21,40 +21,42 @@ Kubernetes is an open source system for automating deployment, scaling, and mana
 - Limited budget to create accounts to purchase cloud services if I need extra practices or to research the course supplements.
 - As a full-time working student, sometimes, a suddent workload or request at my job might impact my studying.
 ## Mitigation Strategy
-- [Week 3 - Week 5]: Quickly complete 15/18 modules of [Introduction to Kubernetes](https://trainingportal.linuxfoundation.org/courses/introduction-to-kubernetes) to gain the basics, make
-  blog posts for each module.
-  The modules are:
-    - Course Introduction
-    - From Monolith to Microservices
-    - Container Orchestration
-    - Kubernetes
-    - Kubernetes Architecture
-    - Minikube: Installing Local Kubernetes Clusters
-    - Accessing Minikube
-    - Kubernetes Building Blocks
-    - Authentication, Authorization, Admission Control
-    - Services
-    - Deploying a Standalone Application
-    - Kubernetes Volume Management
-    - ConfigMaps and Secrets
-    - Ingress
-- [Week 6 - Week 10]: Study the course from the Introduction module to the Helm Foundamental module of the Udemy course. For each module, write a GitHub post to reflect what I learned.
-  The modules are:
-    - Introduction
-    - Core Concepts
-    - Configuration
-    - Multi-Container Pods
-    - Observability
-    - POD Design
-    - Services & Networking
-    - State Persistence
-    - Security
-    - Helm Fundamentals
-    - Additional Practice - Kubernetes Challenges
-    - Certification Tips
-    - Lightning Labs
-    - Mock Exams
-- [Week 11 - ]: Study the course from the Additional Practice to the Mock Exam module. Explore some GitHub Excersice and Killer shell practices. Write blog post to showcase what I learned.
+Week 3 - Week 5: Quickly complete 15/18 modules of [Introduction to Kubernetes](https://trainingportal.linuxfoundation.org/courses/introduction-to-kubernetes) to gain the basics, make
+blog posts for each module.
+The modules are:
+  - Course Introduction
+  - From Monolith to Microservices
+  - Container Orchestration
+  - Kubernetes
+  - Kubernetes Architecture
+  - Minikube: Installing Local Kubernetes Clusters
+  - Accessing Minikube
+  - Kubernetes Building Blocks
+  - Authentication, Authorization, Admission Control
+  - Services
+  - Deploying a Standalone Application
+  - Kubernetes Volume Management
+  - ConfigMaps and Secrets
+  - Ingress
+
+Week 6 - Week 10: Study the course from the Introduction module to the Helm Foundamental module of the Udemy course. For each module, write a GitHub post to reflect what I learned.
+The modules are:
+  - Introduction
+  - Core Concepts
+  - Configuration
+  - Multi-Container Pods
+  - Observability
+  - POD Design
+  - Services & Networking
+  - State Persistence
+  - Security
+  - Helm Fundamentals
+  - Additional Practice - Kubernetes Challenges
+  - Certification Tips
+  - Lightning Labs
+  - Mock Exams
+
+Week 11 - : Study the course from the Additional Practice to the Mock Exam module. Explore some GitHub Excersice and Killer shell practices. Write blog post to showcase what I learned.
   If the time is right and I am well-prepared at the moment, I shall take the exam and share the experience on one blog post.
 ## Project Assessments
 - Do I complete and post for each course module? The modules are listed above.
