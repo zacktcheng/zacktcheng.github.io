@@ -39,3 +39,5 @@ defaults:
       type: post
     values:
       tags: Other
+
+include: ['_pages', '_pages/introduction-to-kubernetes (LFS158)']
