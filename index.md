@@ -1,5 +1,3 @@
-Here you can say lots of fun things about your site.
+Welcome to my CSPB 3112 GitHub Blog!
 
-Maybe say a some things about yourself.
-
-Or maybe what you plan to blog about.
+Let's learn CICD together!
