@@ -1,4 +1,6 @@
-# Table of contents:
+# From Monolith to Microservices
+
+### Table of contents:
 - [What is a Monolith Applicaiton and What are Its Challenges](#what-is-a-monolith-applicaiton-and-what-are-its-challenges)
 - [What is a Microservice](#what-is-a-microservice)
 - [Path from Monolith to Microservices](#path-from-monolith-to-microservices)
