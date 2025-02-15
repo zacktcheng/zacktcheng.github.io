@@ -18,7 +18,20 @@ The Kubernetes control plane is a **collection of processes** that manages the s
 
 ## Worker Nodes
 
+A worker node provides a running environment for client applications. These applications are microservices running as application containers. The application containers are encapsulated in Pods, controlled by the cluster control plane agents. A Pod is the smallest scheduling work unit in Kubernetes.
 
+### Worker Node Components
+- Container Runtime
+- Kubelet
+- Kube-Proxy
+- Add-ons
 
 ## Networking
 
+In a multi-worker Kubernetes cluster, the network traffic between client users and the containerized applications deployed in Pods is handled directly by the worker nodes
+
+### Networking Challenges
+- Container-to-Container communication inside Pods
+- Pod-to-Pod communication on the same node and across cluster nodes
+- Service-to-Pod communication within the same namespace and across cluster namespaces
+- External-to-Service communication for clients to access applications in a cluster
