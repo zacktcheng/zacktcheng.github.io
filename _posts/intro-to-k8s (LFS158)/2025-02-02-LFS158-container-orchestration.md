@@ -23,6 +23,7 @@ Containers are best suited to deliver microservices by providing portable, isola
 Container image is a lightweight, standalone, executable software package. It includes everything needed to run an application: code, runtime, system tools, system libraries and settings, and it represents the source of a container deployed to offer an isolated executable environment for the application. Containers can be deployed from a specific image on many platforms, such as workstations, Virtual Machines, public cloud, etc.
 
 <img src="/assets/images/containerImage.drawio.png" />
+
 *How does a container image work: from Dockerfile to image to container.*
 
 ## So, What is Container Orchestration?
