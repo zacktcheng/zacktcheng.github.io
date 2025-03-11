@@ -9,7 +9,9 @@
 
 ![monolith application](/assets/images/monolith.drawio.png)
 
-A monolith application is an all-in-one system where all features are built within a single codebase, meaning the entire application is considered one unit, with all components tightly coupled and deployed as a single entity. Since the frontend and backend are coupled, every component in the application is within a single process, and every single update requires changes to the entire application.
+A monolith application is an all-in-one system where all features are built within a single codebase, meaning the entire application is considered one unit, with all components tightly coupled and deployed as a single entity. One intuitive way to understand the infrastructure of a monolith application is to think it as a waterfall of many steps, each step represents a feature or a component tighlty stacked on top another. When we deliver a new change, the flow has to go from the very top of waterfall down and then go through each component and finally down to the riverbed. This nature of the monolith style infrastructure has many advantages and disadvantages to discuss further.
+
+
 
 ### Why Do Companies Build Software in a Monolith Way?
 
