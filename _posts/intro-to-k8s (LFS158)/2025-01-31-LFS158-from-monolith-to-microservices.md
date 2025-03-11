@@ -13,7 +13,7 @@ A monolith application is an all-in-one system where all features are built with
 
 One intuitive way to understand the infrastructure of a monolith application is to think it as a waterfall of many steps, each step represents a feature or a component tighlty stacked on top another. When we deliver a new change, the flow has to go from the very top of waterfall down and then go through each component and finally down to the riverbed. This nature of the monolith style infrastructure has many advantages and disadvantages to discuss further.
 
-![Waterfall drawing, flowing river sketch Stock Vector by ©Danussa](/assets/images/waterfall-by-Danussa.jpg)
+<img src="/assets/images/waterfall-by-Danussa.jpg" width="auto" height="256" >
 *Waterfall drawing, flowing river sketch Stock Vector by ©Danussa*
 
 ### Why Do Companies Build Software in a Monolith Way?
