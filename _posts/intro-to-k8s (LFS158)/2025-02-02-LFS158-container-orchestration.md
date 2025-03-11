@@ -1,9 +1,10 @@
 # Container Orchestration
 
 ### Table of contents:
-- [What is Container Orchestration](#what-is-container-orchestration)
+- [What is a Container](#what-is-a-container)
+- [What is Container Orchestration](#So-what-is-container-orchestration)
 
-## What is Container Orchestration
+## What is a Container
 
 ### Introducing Containers
 
@@ -15,7 +16,7 @@ Containers provides high-performing, scalable applications on any infrastructure
 
 Container image is a lightweight, standalone, executable software package. It includes everything needed to run an application: code, runtime, system tools, system libraries and settings, and it represents the source of a container deployed to offer an isolated executable environment for the application. Containers can be deployed from a specific image on many platforms, such as workstations, Virtual Machines, public cloud, etc.
 
-### So, What is Container Orchestration?
+## So, What is Container Orchestration?
 
 Container orchestration is a process to automatically porvisions, deploys, scales and manages containerized applications without worrying about the underlying infrastructure. Once the containers are running, container orchestration tools automate life cycle management and operational tasks based on the container definition file, including:
 - Provisioning and deployment
@@ -35,4 +36,3 @@ Container orchestration is a process to automatically porvisions, deploys, scale
 - Group sets of similar containers and bind them to load-balancing constructs to simplify access to containerized applications by creating an interface, a level of abstraction between the containers and the client.
 - Manage and optimize resource usage.
 - Allow for implementation of policies to secure access to applications running inside containers.
-
