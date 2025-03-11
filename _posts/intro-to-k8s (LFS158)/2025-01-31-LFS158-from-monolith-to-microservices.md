@@ -51,6 +51,8 @@ During upgrades, patches or migrations of the monolith application downtime is i
 
 ## What is a Microservice
 
+<img src="assets/images/microservices.drawio.png" />
+
 A microservices is an independent service that communicate with each other over a network. It can be developed, deployed, and scaled independently. Microservices are loosly coupled, distributed components, each microservice can be deployed individually on separate servers provisioned with fewer resources to perform a specific busniess function; Together, microservices make up the entire system.
 
 Microservices architecture aligns with Event-driven Architecture and Service-Oriented Architecture (SOA) principles, where complex applications are composed of small independent processes which communicate with each other through Application Programming Interfaces (APIs) over a network.
