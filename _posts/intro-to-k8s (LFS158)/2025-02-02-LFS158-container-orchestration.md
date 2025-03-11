@@ -14,6 +14,8 @@ A container is a self-contained unit of software that packages an application wi
 
 Containers are best suited to deliver microservices by providing portable, isolated virtual environments for applications to run without interference from other running applications. A container encapsulates microservices with their dependencies inside; However, containers do not run them directly, they run container images instead.
 
+<img src="/assets/images/what-is-containerization.png" width="128px" />
+
 ### What about the Container Images?
 
 Container image is a lightweight, standalone, executable software package. It includes everything needed to run an application: code, runtime, system tools, system libraries and settings, and it represents the source of a container deployed to offer an isolated executable environment for the application. Containers can be deployed from a specific image on many platforms, such as workstations, Virtual Machines, public cloud, etc.
