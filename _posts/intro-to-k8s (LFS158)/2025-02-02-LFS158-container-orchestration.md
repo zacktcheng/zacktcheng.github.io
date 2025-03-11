@@ -10,9 +10,7 @@
 
 A container is a self-contained unit of software that packages an application with all its necessary dependencies (code, libraries, runtime environment) allowing it to run consistently across different computing environments, essentially acting like a portable, lightweight virtualized application that can be easily deployed and managed on various platforms.
 
-<img src="/assets/images/containerization.drawio.png" />
-
-*Containers are a form of operating system virtualization.*
+<img src="/assets/images/containerization.drawio.png" /> *Containers are a form of operating system virtualization.*
 
 Containers are best suited to deliver microservices by providing portable, isolated virtual environments for applications to run without interference from other running applications. A container encapsulates microservices with their dependencies inside; However, containers do not run them directly, they run container images instead.
 
