@@ -8,17 +8,22 @@
 
 ### Introducing Containers
 
-A container is a self-contained unit of software that packages an application with all its necessary dependencies (code, libraries, runtime environment) allowing it to run consistently across different computing environments, essentially acting like a portable, lightweight virtualized application that can be easily deployed and managed on various platforms.
+A container is a form of OS virtualization that packages an application with all its necessary dependencies (code, libraries, runtime environment) allowing it to run consistently across different computing environments, essentially acting like a portable, lightweight virtualized application that can be easily deployed and managed on various platforms.
 
-<img src="/assets/images/containerization.drawio.png" /> *Containers are a form of operating system virtualization.*
+<img src="/assets/images/containerization.drawio.png" />
+*Containers are a form of operating system virtualization.*
 
 Containers are best suited to deliver microservices by providing portable, isolated virtual environments for applications to run without interference from other running applications. A container encapsulates microservices with their dependencies inside; However, containers do not run them directly, they run container images instead.
 
-<img src="/assets/images/what-is-containerization.png" width="512px" /> *Virtualization with Hyper-v versus a container engine*
+<img src="/assets/images/what-is-containerization.png" width="512px" />
+*Virtualization with Hyper-v versus a container engine.*
 
 ### What about the Container Images?
 
 Container image is a lightweight, standalone, executable software package. It includes everything needed to run an application: code, runtime, system tools, system libraries and settings, and it represents the source of a container deployed to offer an isolated executable environment for the application. Containers can be deployed from a specific image on many platforms, such as workstations, Virtual Machines, public cloud, etc.
+
+<img src="/assets/images/containerImage.drawio.png" >
+*How does a container image work: from Dockerfile to image to container.*
 
 ## So, What is Container Orchestration?
 
