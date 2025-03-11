@@ -1,3 +1,14 @@
+---
+title: From Monolith to Microservices
+date: 2025-01-31 00:00:00
+categories:
+- intro-to-k8s
+tags:
+- Monolith
+- Microservice
+- Salability
+--- 
+
 # From Monolith to Microservices
 
 ### Table of contents:
