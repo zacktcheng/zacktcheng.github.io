@@ -11,11 +11,13 @@
 A container is a form of OS virtualization that packages an application with all its necessary dependencies (code, libraries, runtime environment) allowing it to run consistently across different computing environments, essentially acting like a portable, lightweight virtualized application that can be easily deployed and managed on various platforms.
 
 <img src="/assets/images/containerization.drawio.png" />
+
 *Containers are a form of operating system virtualization.*
 
 Containers are best suited to deliver microservices by providing portable, isolated virtual environments for applications to run without interference from other running applications. A container encapsulates microservices with their dependencies inside; However, containers do not run them directly, they run container images instead.
 
 <img src="/assets/images/what-is-containerization.png" width="512px" />
+
 *Virtualization with Hyper-v versus a container engine.*
 
 ### What about the Container Images?
@@ -46,3 +48,7 @@ Container orchestration is a process to automatically porvisions, deploys, scale
 - Group sets of similar containers and bind them to load-balancing constructs to simplify access to containerized applications by creating an interface, a level of abstraction between the containers and the client.
 - Manage and optimize resource usage.
 - Allow for implementation of policies to secure access to applications running inside containers.
+
+<img src="https://www.pegasusone.com/wp-content/uploads/2019/11/container_orchestration_tools.jpg" />
+
+*Popular container orchestration tools.*
