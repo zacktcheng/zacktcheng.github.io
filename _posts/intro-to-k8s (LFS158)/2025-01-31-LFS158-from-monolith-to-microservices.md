@@ -6,7 +6,7 @@
 - [Path from Monolith to Microservices](#path-from-monolith-to-microservices)
 
 ## What is a Monolith Applicaiton and What are Its Challenges
-
+![monolith application](/assets/images/monolith.drawio.png)
 A monolith application is an all-in-one system where all features are built within a single codebase, meaning the entire application is considered one unit, with all components tightly coupled and deployed as a single entity. Since the frontend and backend are coupled, every component in the application is within a single process, and every single update requires changes to the entire application.
 
 ### Why Do Companies Build Software in a Monolith Way?
