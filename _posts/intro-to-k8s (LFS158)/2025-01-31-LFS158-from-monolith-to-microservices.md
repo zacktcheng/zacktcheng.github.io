@@ -55,7 +55,7 @@ During upgrades, patches or migrations of the monolith application downtime is i
 
 A microservices is an independent service that communicate with each other over a network. It can be developed, deployed, and scaled independently. Microservices are loosly coupled, distributed components, each microservice can be deployed individually on separate servers provisioned with fewer resources to perform a specific busniess function; Together, microservices make up the entire system.
 
-Microservices architecture aligns with Event-driven Architecture and Service-Oriented Architecture (SOA) principles, where complex applications are composed of small independent processes which communicate with each other through Application Programming Interfaces (APIs) over a network.
+Microservices architecture aligns with [Event-driven Architecture](https://learn.microsoft.com/en-us/azure/architecture/guide/architecture-styles/event-driven) and [Service-Oriented Architecture (SOA)](https://www.ibm.com/think/topics/soa) principles, where complex applications are composed of small independent processes which communicate with each other through Application Programming Interfaces (APIs) over a network.
 
 One intuitive way to understand microservices is to think it as a running a restaurant crew. Each team member has his/her own skill set to works on a part of the restaurant service to the customers. The demand of the food services is driven by a customer order *(event-driven)*, and when there are many more customer orders, the restaurant can hire more people for the specific positions to handle the increased requests *(scalability)*.
 
@@ -86,7 +86,3 @@ The "Big-bang" approach attemps to comopletely rewrite and deploy the entire sys
 Incremental refactoring involves gradually transforming a monolithic system into a microservices architecture. This strategy allows you to progressively decompose a monolith into microservices, reducing the risk of business disruption.
 
 This approach guarantees that new features are developed and implemented as modern microservices which are able to communicate with the monolith through APIs, without appending to the monolith's code. In sum, it offers a gradual transition from a legacy monolith to modern microservices architecture and allows for phased migration of application features into the cloud.
-
-### Challenges of Refactoring and Application Containers
-
-[WIP]
