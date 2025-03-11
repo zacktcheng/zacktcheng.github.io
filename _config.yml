@@ -38,6 +38,6 @@ defaults:
       path: ""
       type: post
     values:
-      tags: Other
+      tags: Posts
 
 include: ['_pages', '_pages/introduction-to-kubernetes (LFS158)']
