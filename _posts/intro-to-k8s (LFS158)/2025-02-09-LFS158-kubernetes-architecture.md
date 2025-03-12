@@ -5,6 +5,10 @@
 - [Worker Nodes](#worker-nodes)
 - [Networking](#networking)
 
+At a high level, kubernetes is a cluster of compute systems categorized by their distinct roles. These compute systems can be split into two categories:
+- Control plane nodes
+- Worker nodes
+
 ## Control Plane
 
 The Kubernetes control plane is a **collection of processes** that manages the state of a Kubernetes cluster.
