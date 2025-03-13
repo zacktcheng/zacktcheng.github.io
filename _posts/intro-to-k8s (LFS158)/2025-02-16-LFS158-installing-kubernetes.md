@@ -2,7 +2,6 @@
 
 ### Table of contents
 - [Installing Ubuntu(Linux) on macOS](#installing-ubuntu-on-macos)
-- [Installing Minikube on macOS](#installing-minikube-on-macos)
 
 # TLDR
 I have a MacBook Pro and I want to practice Kubernetes on my laptop, so I decided to install Ubuntu on my Mac first, and once the installation is done, I will install Kuberenetes inside a Ubuntu VM. Installing Ubuntu on Mac to run Kubernetes can offer several benefits:
@@ -13,7 +12,7 @@ I have a MacBook Pro and I want to practice Kubernetes on my laptop, so I decide
 
 ## Installing Ubuntu on the macOS
 
-[How to install Ubuntu on Mac](https://www.youtube.com/watch?v=Hzji7w882OY&t=15s)
+/* [How to install Ubuntu on Mac](https://www.youtube.com/watch?v=Hzji7w882OY&t=15s) */
 
 Let's follow the steps to install:
 1. [Download VirtualBox](https://www.virtualbox.org/wiki/Downloads). You can find out which processor your Mac is using through [these steps](https://www.howtogeek.com/706226/how-to-check-if-your-mac-is-using-an-intel-or-apple-silicon-processor/)
