@@ -12,7 +12,7 @@ I have a MacBook Pro and I want to practice Kubernetes on my laptop, so I decide
 
 ## Installing Ubuntu on the macOS
 
-/* [How to install Ubuntu on Mac](https://www.youtube.com/watch?v=Hzji7w882OY&t=15s) */
+<!-- [How to install Ubuntu on Mac](https://www.youtube.com/watch?v=Hzji7w882OY&t=15s) -->
 
 Let's follow the steps to install:
 1. [Download VirtualBox](https://www.virtualbox.org/wiki/Downloads). You can find out which processor your Mac is using through [these steps](https://www.howtogeek.com/706226/how-to-check-if-your-mac-is-using-an-intel-or-apple-silicon-processor/)
