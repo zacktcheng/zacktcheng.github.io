@@ -10,18 +10,31 @@
 
 ### Nodes
 
+A node may be a virtual or physical machine, depending on the cluster. Each node is managed by the control plane and contains the services necessary to run Pods. Each node is managed with the help of two Kubernetes node agents - kubelet and kube-proxy.
+
+Based on their predetermined functions, there are two distinct types of nodes - control plane and worker. A typical Kubernetes cluster includes at least one control plane node, but it may include multiple control plane nodes for the High Availability (HA) of the control plane. In addition, the cluster includes one or more worker nodes to provide resource redundancy in the cluster.
+
+The control plane nodes run the control plane agents, such as the API Server, Scheduler, Controller Managers, and etcd in addition to the kubelet and kube-proxy node agents, the container runtime, and add-ons for container networking, monitoring, logging, DNS, etc.
+
+Worker nodes run the kubelet and kube-proxy node agents, the container runtime, and add-ons for container networking, monitoring, logging, DNS, etc.
 
 ### Namespaces
 
+In computing, a namespace is a scope that organizes identifiers (like variables, functions, classes, etc.) to prevent naming conflicts and improve code organization. If multiple users and teams use the same Kubernetes cluster we can partition the cluster into virtual sub-clusters using Namespaces. The names of the resources/objects created inside a Namespace are unique, but not across Namespaces in the cluster.
 
 ### Pods
 
+A Pod is the smallest Kubernetes workload object. It is the unit of deployment in Kubernetes, which represents a single instance of the application. A Pod is a logical collection of one or more containers, enclosing and isolating them to ensure that they:
+- Are scheduled together on the same host with the Pod
+- Share the same network namespace, meaning that they share a single IP address originally assigned to the Pod
+- Have access to mount the same external storage (volumes) and other common dependencies
 
 
 ## Labels and Label Selectors
 
 ### Labels
 
+Labels are key-value pairs attached to Kubernetes objects such as Pods, ReplicaSets, Nodes, Namespaces and Persistent Volumes. Labels are used to organize and select a subset of objects, based on the requirements in place. Many objects can have the same Label(s). Labels do not provide uniqueness to objects. Controllers use Labels to logically group together decoupled objects, rather than using objects' names or IDs.
 
 ### Label Selectors
 
@@ -59,7 +72,7 @@ Rollbacks
 
 ### DaemonSets
 
-
+A DaemonSet ensures that all (or some) Nodes run a copy of a Pod. DaemonSet operators are commonly used in cases when we need to collect monitoring data from all Nodes, or to run storage, networking, or proxy daemons on all Nodes, to ensure that we have a specific type of Pod running on all Nodes at all times.
 
 ## Services
 
