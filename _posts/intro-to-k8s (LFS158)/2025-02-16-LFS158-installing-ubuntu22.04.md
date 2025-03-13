@@ -1,4 +1,4 @@
-# Installing Kubernetes
+# Installing Ubuntu 22.04
 
 ### Table of contents
 - [Installing Ubuntu(Linux) on macOS](#installing-ubuntu-on-macos)
