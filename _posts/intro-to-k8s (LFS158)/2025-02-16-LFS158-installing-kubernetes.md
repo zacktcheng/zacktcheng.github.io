@@ -26,11 +26,3 @@ Let's follow the steps to install:
 5. Click **Start**. For the first time, the program will ask you to direct the location of your virtual disk of Ubuntu. Just simply locate wherever we saved the downloaded Ubuntu disk file then hit **Start**. This will bring us to the Ubuntu installation screen.
 6. On the installation screen, click **Install Ubuntu**. We can keep the default checkbox settings then set up the username and password.
 7. Once you see the purple desktop background shows up with an animal *(Mine is a jellyfish)*, you are all set! Now the Ubuntu VM is ready to play with! 
-
-## Installing MiniKube on the Ubuntu 22.04 (Jammy Jellyfish)
-
-Let's follow the steps to install:
-1. v
-2. v
-3. v
-4. v
