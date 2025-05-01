@@ -91,6 +91,9 @@ To create a deployment, start by defining a deployment definition file, similar 
 
 While there are similarities between replica sets and deployments, deployments introduce a new Kubernetes object with distinct benefits. Upcoming lectures will explore practical applications of deployments. Finally, use the Kube control get all command to view all created objects, revealing the hierarchy of the deployment, replica set, and pods, effectively illustrating the deployment's capabilities within a Kubernetes environment.
 
+<img src="/assets/images/kubectl-get-all.png" width="auto" height="256" ><br>
+An example commend to get all the deployments.
+
 ## Namespaces
 
 To understand namespaces in Kubernetes, consider an analogy where two boys named Mark are identified by their last names, Smith and Williams, to distinguish them from each other. They belong to different households, each with its own members, resources, and rules. Members within each house use first names to address each other, while outsiders use full names. Similarly, in Kubernetes, namespaces act as isolated sections within a cluster. Previously, Kubernetes objects like Pods, Deployments, and Services have been created in the default namespace, automatically set up by Kubernetes.
