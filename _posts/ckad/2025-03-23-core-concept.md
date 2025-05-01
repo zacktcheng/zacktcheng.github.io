@@ -78,6 +78,9 @@ spec:
 
 ## Deployments
 
+<img src="/assets/images/deployment.drawio.png" width="auto" height="256" ><br>
+Deployment in a nutshell.
+
 When deploying an application in a production environment, it's essential to consider several factors to ensure stability and efficiency. For a web server, multiple instances should be running to handle user load effectively. Additionally, seamless upgrades of Docker instances are crucial when new application versions are available in the Docker registry. To prevent user disruptions, implementing rolling updates rather than upgrading all instances simultaneously is advisable. This approach ensures that upgrades occur progressively, reducing potential impacts on users. In cases where an upgrade leads to errors, the ability to roll back changes is vital to maintain system reliability.
 
 Moreover, making various changes, such as updating web server versions, scaling the environment, and modifying resource allocations, simultaneously is often necessary. In such situations, it's beneficial to pause the environment, apply all changes, and then resume operations to roll out updates collectively. These functionalities are achievable with Kubernetes deployments, which offer advanced features compared to basic pods.
@@ -87,8 +90,6 @@ Up to this point, discussions on Kubernetes have focused on pods, which deploy s
 To create a deployment, start by defining a deployment definition file, similar to a replica set definition but identified as a deployment. The file includes specifications such as API version, metadata, and a pod definition template. After preparing the file, use the Kube control create command to initiate the deployment. The deployment automatically generates a replica set, which, in turn, creates pods.
 
 While there are similarities between replica sets and deployments, deployments introduce a new Kubernetes object with distinct benefits. Upcoming lectures will explore practical applications of deployments. Finally, use the Kube control get all command to view all created objects, revealing the hierarchy of the deployment, replica set, and pods, effectively illustrating the deployment's capabilities within a Kubernetes environment.
-
-<img src="/assets/images/deployment.drawio.png" width="auto" height="256" >
 
 ## Namespaces
 
