@@ -91,7 +91,8 @@ To create a deployment, start by defining a deployment definition file, similar 
 
 While there are similarities between replica sets and deployments, deployments introduce a new Kubernetes object with distinct benefits. Upcoming lectures will explore practical applications of deployments. Finally, use the Kube control get all command to view all created objects, revealing the hierarchy of the deployment, replica set, and pods, effectively illustrating the deployment's capabilities within a Kubernetes environment.
 
-<img src="/assets/images/kubectl-get-all.png" width="auto" height="256" >
+<img src="/assets/images/kubectl-get-all.png" width="auto" height="200" ><br>
+`kubectl get all` to list all the deployments.
 
 ## Namespaces
 
