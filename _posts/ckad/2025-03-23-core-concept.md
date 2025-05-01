@@ -95,6 +95,8 @@ While there are similarities between replica sets and deployments, deployments i
 
 ## Namespaces
 
+<img src="/assets/images/namespaces.png" width="auto" height="256" >
+
 To understand namespaces in Kubernetes, consider an analogy where two boys named Mark are identified by their last names, Smith and Williams, to distinguish them from each other. They belong to different households, each with its own members, resources, and rules. Members within each house use first names to address each other, while outsiders use full names. Similarly, in Kubernetes, namespaces act as isolated sections within a cluster. Previously, Kubernetes objects like Pods, Deployments, and Services have been created in the default namespace, automatically set up by Kubernetes.
 
 The default namespace is suitable for smaller environments or learning scenarios, but enterprise or production environments benefit significantly from user-defined namespaces. Kubernetes also creates additional namespaces, such as kube-system for internal resources, and kube-public for resources accessible to all users. User-created namespaces allow for resource isolation, as seen when differentiating between development and production environments. Each namespace can have distinct policies and resource quotas, ensuring fair usage and avoiding excess consumption.
