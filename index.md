@@ -8,7 +8,7 @@ title: Home
 
 # Zack's Software Development Study Notes
 
-<img src="assets/images/S__17408045.jpg" width="auto" height="256" >
+<img src="assets/images/S__17408045.jpg" width="256" height="256" >
 
 **Welcome!** My name is Zack Cheng, I am currently a studying the Applied Computer Science post-bacc program at the University of Colorado Boulder. This blog documents my study notes for the Linux Foundation Introduction to Kubernetes course and Udemy Certified Kubernetes Application Developer course. Follow along as I work through each selected module in the certification syllabus and share my learning journey. This blog was created as part of my semester project for the University of Colorado, Boulder's CSPB 3112: Professional Development in Computer Science course.
 
