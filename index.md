@@ -3,9 +3,6 @@ layout: default
 title: Home
 ---
 
-*Author: Zack Cheng*
-<br/>
-
 # Zack's Software Development Study Notes
 
 <img src="assets/images/S__17408045.jpg" width="256" height="auto" >
