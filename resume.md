@@ -1,6 +1,6 @@
-# CV
+# Resume
 
-zacktcheng@gmail.com | +886 925400628
+zacktcheng@gmail.com | +886 925-400-628
 
 ## Experience
 ### Software Engineer @ West Pharmaceutical Services, Digital Transfer Center, R & D. 09/2023 - Present
@@ -40,6 +40,7 @@ Shih Chien University 09/2008 - 06/2012
     - Nominee, Red Dot Design Student Award, Germany.
     - Honorable Mention, Light Metal Award, Industrial Department Bureau, Taiwan.
     - Grand Prize, LED Application Award, Foxxon, Taiwan.
+
 ## Skills
 - Programming: Java, JavaScript, Python, C/C++, HTML, CSS, SQL, Unix Shell, PowerShell, C#.
 - Development tools: Jakarta EE, Spring, Visual Studio, Visual Studio Code, React, Node.js, Vue.js,
@@ -47,3 +48,12 @@ Express.js, Ajax, GitHub, Kintone, Azure DevOps, Heroku, MySQL, MongoDB, Bootstr
 Autodest 3Ds Max, Autodesk Maya, ZBrush, Substance Designer, Substance Painter, Houdini, Adobe
 Creative Suite, PlayStation Development Kit, Unity, Unreal Engine.
 - Project management: Agile, Scrum, Trello, Jira.
+
+## Projects
+Pet rescue and adoption web app [PetRescue](https://github.com/Fantastic4Project3308/PetRescue)
+- Designed and implemented web scraping shell scripts to extract 100+ real dogs and cats’ info from animal
+shelters in the greater Seattle area on Pantago.com HTML pages.
+- Led a team of 3 classmates to develop multiple static web pages using HTML, CSS, and ES6 JavaScript.
+- Created the backend search filter feature in Python Flask and SQLite which provides users with 5 filter
+options to filter hundreds of cats and dogs.
+- Hosted several weekly Scrums.
