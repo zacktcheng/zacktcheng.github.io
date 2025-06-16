@@ -32,9 +32,7 @@ Here are links to the course I am following along with:
     </tbody>
 </table>
 
-## My CV
-
-<a href="https://github.com/zacktcheng/zacktcheng.github.io/blob/main/resume.md" >Zack Tsai-Tu Cheng's Resume</a>
-
 Here is my contact information:
 - [Linkedin](https://www.linkedin.com/in/zack-cheng-3684506b/)
+
+For detailed professional information such as skills and experience, please check out my [resume](https://zacktcheng.github.io/resume.html)
