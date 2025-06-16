@@ -12,6 +12,7 @@ title: Home
 Here are links to the course I am following along with:
 - [AI For JavaScript Developers (OpenAI, Embeddings, Vercel AI)](https://www.udemy.com/course/ai-for-js-devs)
 
+
 ## Lastest Posts
 
 <table>
@@ -30,3 +31,10 @@ Here are links to the course I am following along with:
         {% endfor %}
     </tbody>
 </table>
+
+## My CV
+
+<a href="{{ resume.url | relative_url }}" >{{ resume.title }}</a>
+
+Here is my contact information:
+- [Linkedin](https://www.linkedin.com/in/zack-cheng-3684506b/)
