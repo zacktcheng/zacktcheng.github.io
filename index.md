@@ -34,7 +34,7 @@ Here are links to the course I am following along with:
 
 ## My CV
 
-<a href="{{ resume.url | relative_url }}" >{{ resume.title }}</a>
+<a href="{{ site.resume.url | relative_url }}" >{{ site.resume.title }}</a>
 
 Here is my contact information:
 - [Linkedin](https://www.linkedin.com/in/zack-cheng-3684506b/)
