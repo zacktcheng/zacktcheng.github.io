@@ -1,3 +1,7 @@
+# Zack Tsai-Tzu Cheng
+
+zacktcheng@gmail.com | +886 925400628
+
 ## Experience
 ### Software Engineer @ West Pharmaceutical Services, Digital Transfer Center, R & D. 09/2023 - Present
 
