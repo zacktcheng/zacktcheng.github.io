@@ -10,7 +10,7 @@ title: Home
 **Welcome!** My name is Zack Cheng, I am currently a studying the Applied Computer Science post-bacc program at the University of Colorado Boulder. This blog documents my study notes for the AI For JavaScript Developers (OpenAI, Embeddings, Vercel AI) on Udemy. Follow along as I work through each selected module in the certification syllabus and share my learning journey. This blog was created as part of my semester project for the University of Colorado, Boulder's CSPB 3112: Professional Development in Computer Science course.
 
 Here are links to the course I am following along with:
-- [AI For JavaScript Developers (OpenAI, Embeddings, Vercel AI)]([https://training.linuxfoundation.org/training/introduction-to-kubernetes/](https://www.udemy.com/course/ai-for-js-devs)
+- [AI For JavaScript Developers (OpenAI, Embeddings, Vercel AI)](https://www.udemy.com/course/ai-for-js-devs)
 
 ## Lastest Posts
 
