@@ -1,4 +1,4 @@
-# OpenAI Basics
+# Chat Completion Basics
 
 ## Table of contents
 - [Project Structure intro](#project-structure-intro)
