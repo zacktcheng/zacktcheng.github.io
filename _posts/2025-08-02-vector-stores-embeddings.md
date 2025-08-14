@@ -20,6 +20,18 @@ We often need to build a chatbot that can answer questions based on a large docu
    - Create a `VectorStoreIndex`: This is the core step. LlamaIndex takes your large document, breaks it down into smaller, equal-sized "chunks" (called nodes), and creates an embedding for each chunk.
    - Store the Index: To avoid recreating the index every time the script runs, use LlamaIndex's StorageContext. This saves the embeddings to a local folder, making subsequent script runs much faster. You provide a directory for persistence.
 
+## Querying the vector store
+
+### Chunking Strategy
+LlamaIndex breaks large documents into smaller "chunks" (nodes). To optimize this, you can customize the chunking rules in the ServiceContext object.
+- Chunk Size: The default chunk size can be too large. It's recommended to set it to a smaller size, like 4,000 characters (roughly 1,000 tokens), to ensure that the chunks fit within the LLM's context window.
+- Chunk Overlap: To prevent context from being cut between chunks, you can set a chunkOverlap value (e.g., 500 characters). This ensures that each new chunk starts with some text from the end of the previous one.
+
+### Retrieve Relevant Chunks
+- The user's query is also converted into a vector embedding. 
+- A retriever is created from the LlamaIndex index.
+- The retriever performs a similarity search (using a k-nearest neighbor algorithm) to find the top k most relevant chunks from the vector store based on the user's query. By default, k is 2, meaning it returns the two most similar chunks.
+
 My working example code:
 ```
 import { AzureOpenAI } from "openai";
@@ -82,25 +94,3 @@ const response = await client.chat.completions.create({
 console.log(response.choices[0].message)
 ```
 **Note that I didn't use** `ServiceContext`. **This is because it is deprecated in the later version.**
-
-## Querying the vector store
-
-### Chunking Strategy
-
-LlamaIndex breaks large documents into smaller "chunks" (nodes). To optimize this, you can customize the chunking rules in the ServiceContext object.
-
-Chunk Size: The default chunk size can be too large. It's recommended to set it to a smaller size, like 4,000 characters (roughly 1,000 tokens), to ensure that the chunks fit within the LLM's context window.
-
-Chunk Overlap: To prevent context from being cut between chunks, you can set a chunkOverlap value (e.g., 500 characters). This ensures that each new chunk starts with some text from the end of the previous one.
-
-### Retrieve Relevant Chunks
-
-The user's query is also converted into a vector embedding.
-
-A retriever is created from the LlamaIndex index.
-
-The retriever performs a similarity search (using a k-nearest neighbor algorithm) to find the top k most relevant chunks from the vector store based on the user's query. By default, k is 2, meaning it returns the two most similar chunks.
-
-
-- Code Generation
-- Autonomous Agents
